@@ -1,0 +1,73 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+hr {
+	height: 2px;
+}
+
+img {
+	margin: auto;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-sub {
+	margin-top: 10px;
+}
+
+.title-logo {
+	margin: initial;
+	margin-top: 20px;
+}
+
+.modal-body p {
+	margin: 10px 0;
+}
+
+.featured-work h3 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+a {
+	text-transform: lowercase;
+}
+
+@media (max-width: 992px) {
+	#logo {
+		float: left;
+	}
+}
+
+@media (max-width: 768px) {
+	#wallpaper {
+		/*display: none;*/
+	}
+
+	.featured-title h2 {
+		/*margin-top: -5px;*/
+	}
+}
+
+@media (max-width: 548px) {
+	.title-super {
+		font-size: 40px;
+	}
+
+	.title-sub {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 412px) {
+	.title-super {
+		font-size: 38px;
+	}
+}
