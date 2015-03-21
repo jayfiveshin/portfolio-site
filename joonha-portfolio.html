@@ -2,10 +2,10 @@
 <html>
   <head>
     <title>Joonha's Portfolio</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300'>
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
@@ -43,7 +43,8 @@
       </div>
       <div class="featured-work row text-center text-uppercase">
         <div class="col-md-4">
-          <img class="img-responsive" src="img/featured-work-1.jpg" data-toggle="modal" data-target="#project1">
+          <img class="img-responsive" src="img/featured-work-1.jpg"
+          data-toggle="modal" data-target="#project1" alt="First project">
           <h3>
             Portfolio Site
           </h3>
@@ -54,7 +55,8 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-responsive" src="img/featured-work-2.jpg" data-toggle="modal" data-target="#project2">
+          <img class="img-responsive" src="img/featured-work-2.jpg"
+          data-toggle="modal" data-target="#project2" alt="Second project">
           <h3>
             Interactive Resume
           </h3>
@@ -65,7 +67,8 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-responsive" src="img/featured-work-3.jpg" data-toggle="modal" data-target="#project3">
+          <img class="img-responsive" src="img/featured-work-3.jpg"
+          data-toggle="modal" data-target="#project3" alt="Third project">
           <h3>
             Arcade Game Clone
           </h3>
@@ -74,11 +77,12 @@
               http://www.github.com/tobecompleted
             </a>
           </p>
-        </div>        
+        </div>
       </div>
       <div class="featured-work row text-center text-uppercase">
         <div class="col-md-4">
-          <img class="img-responsive" src="img/featured-work-4.jpg" data-toggle="modal" data-target="#project4">
+          <img class="img-responsive" src="img/featured-work-4.jpg"
+          data-toggle="modal" data-target="#project4" alt="Fourth project">
           <h3>
             Website Optimization
           </h3>
@@ -89,7 +93,8 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-responsive" src="img/featured-work-5.jpg" data-toggle="modal" data-target="#project5">
+          <img class="img-responsive" src="img/featured-work-5.jpg"
+          data-toggle="modal" data-target="#project5" alt="Fifth project">
           <h3>
             Neighbourhood Map
           </h3>
@@ -100,7 +105,8 @@
           </p>
         </div>
         <div class="col-md-4">
-          <img class="img-responsive" src="img/featured-work-6.jpg" data-toggle="modal" data-target="#project6">
+          <img class="img-responsive" src="img/featured-work-6.jpg"
+          data-toggle="modal" data-target="#project6" alt="Sixth project">
           <h3>
             Feed Reader Testing
           </h3>
@@ -109,22 +115,22 @@
               http://www.github.com/tobecompleted
             </a>
           </p>
-        </div>                
+        </div>
       </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
+            <h4 class="modal-title" id="myModalLabel1">
               P1: Build a Portfolio Site
             </h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/featured-work-1.jpg">
+            <img class="img-responsive" src="img/featured-work-1.jpg" alt="Featured work 1">
             <p>
-              In this project, I built a site that contains a list of all projects that I've completed for 
+              In this project, I built a site that contains a list of all projects that I've completed for
               for Udacity. The site you are on right now is in fact the result of this project.
             </p>
           </div>
@@ -136,38 +142,16 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
+            <h4 class="modal-title" id="myModalLabel2">
               P2: Interactive Resume
             </h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/featured-work-2.jpg">
-            <p>              
-              To be completed. 
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
-              P3: Classic Arcade Game Clone
-            </h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="img/featured-work-3.jpg">
+            <img class="img-responsive" src="img/featured-work-2.jpg" alt="Featured work 2">
             <p>
               To be completed.
             </p>
@@ -180,18 +164,40 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
+            <h4 class="modal-title" id="myModalLabel3">
+              P3: Classic Arcade Game Clone
+            </h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/featured-work-3.jpg" alt="Featured work 3">
+            <p>
+              To be completed.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel4">
               P4: Website Optimization
             </h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/featured-work-4.jpg">
+            <img class="img-responsive" src="img/featured-work-4.jpg" alt="Featured work 4">
             <p>
-              To be completed. 
+              To be completed.
             </p>
           </div>
           <div class="modal-footer">
@@ -202,18 +208,18 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
+            <h4 class="modal-title" id="myModalLabel5">
               P5: Neighbourhood Map Project
             </h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/featured-work-5.jpg">
+            <img class="img-responsive" src="img/featured-work-5.jpg" alt="Featured work 5">
             <p>
-              To be completed. 
+              To be completed.
             </p>
           </div>
           <div class="modal-footer">
@@ -224,18 +230,18 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
+            <h4 class="modal-title" id="myModalLabel6">
               P6: Feed Reader Testing
             </h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/featured-work-6.jpg">
+            <img class="img-responsive" src="img/featured-work-6.jpg" alt="Feaured work 6">
             <p>
-              To be completed. 
+              To be completed.
             </p>
           </div>
           <div class="modal-footer">
